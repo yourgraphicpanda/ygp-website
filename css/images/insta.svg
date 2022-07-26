@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <filter id="Rectangle_300" x="-1" y="4" width="62" height="62" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-color="#0e1b8b" flood-opacity="0.251"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="1" y1="0.037" x2="0" y2="0.951" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#8d2ab2"/>
+      <stop offset="0.402" stop-color="#f04d6e"/>
+      <stop offset="1" stop-color="#f8e336"/>
+    </linearGradient>
+    <clipPath id="clip-insta">
+      <rect width="60" height="60"/>
+    </clipPath>
+  </defs>
+  <g id="insta" clip-path="url(#clip-insta)">
+    <g id="Group_550" data-name="Group 550" transform="translate(14 14)">
+      <g transform="matrix(1, 0, 0, 1, -14, -14)" filter="url(#Rectangle_300)">
+        <rect id="Rectangle_300-2" data-name="Rectangle 300" width="32" height="32" rx="16" transform="translate(46 46) rotate(180)" fill="#fff"/>
+      </g>
+      <path id="Union_4" data-name="Union 4" d="M301-3956.008a4,4,0,0,1-4-4v-8a4,4,0,0,1,4-4h8a4,4,0,0,1,4,4v8a4,4,0,0,1-4,4ZM298.6-3968v8a2.4,2.4,0,0,0,2.4,2.4h8a2.4,2.4,0,0,0,2.4-2.4v-8a2.4,2.4,0,0,0-2.4-2.4h-8A2.4,2.4,0,0,0,298.6-3968Zm1.866,4a4.531,4.531,0,0,1,4.531-4.531,4.531,4.531,0,0,1,4.531,4.531,4.534,4.534,0,0,1-4.531,4.531A4.531,4.531,0,0,1,300.465-3964Zm1.6,0a2.931,2.931,0,0,0,2.932,2.931,2.931,2.931,0,0,0,2.932-2.931,2.934,2.934,0,0,0-2.932-2.932A2.931,2.931,0,0,0,302.064-3964Zm6.663-4.265a.8.8,0,0,1,.8-.8.8.8,0,0,1,.8.8.8.8,0,0,1-.8.8A.8.8,0,0,1,308.727-3968.269Z" transform="translate(-289.001 3979.999)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>
